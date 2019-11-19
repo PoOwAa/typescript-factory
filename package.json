@@ -1,0 +1,27 @@
+{
+  "name": "ninjarpc-ts",
+  "version": "1.0.0",
+  "description": "",
+  "types": "lib/main.d.ts",
+  "main": "lib/main.js",
+  "scripts": {
+    "start": "node lib/main.js",
+    "start:watch": "nodemon",
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pino": "^5.13.6",
+    "pino-pretty": "^3.4.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/pino": "^5.8.13",
+    "@types/winston": "^2.4.4",
+    "nodemon": "^1.19.4",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.7.2"
+  }
+}
