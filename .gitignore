@@ -1,6 +1,8 @@
-### Compile JavaScript files ###
-
+### Compiled JavaScript files ###
 lib
+
+### Package-lock.json ###
+package-lock.json
 
 # Created by https://www.gitignore.io/api/node,code,visualstudiocode
 # Edit at https://www.gitignore.io/?templates=node,code,visualstudiocode
@@ -90,7 +92,7 @@ typings/
 # nuxt.js build output
 .nuxt
 
-# react / gatsby 
+# react / gatsby
 public/
 
 # vuepress build output
